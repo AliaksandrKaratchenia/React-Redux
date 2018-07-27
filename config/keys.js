@@ -1,3 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb://YOUR_MONGO_URI'
+	PORT: process.env.PORT || 5000,
+	MONGO_URL: "mongodb://localhost/list"
 };
